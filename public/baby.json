@@ -1,0 +1,87 @@
+[
+  {
+    "id": "1",
+    "name": "Jacket",
+    "price": "999 kr",
+    "image": "img/jacket rose.jpg"
+  },
+
+  {
+    "id": "2",
+    "name": "Jacket",
+    "price": "1050 kr",
+    "image": "img/card_large5.jpg"
+  },
+
+  {
+    "id": "3",
+    "name": "Jeans",
+    "price": "600 kr",
+    "image": "img/card_large (4).jpg"
+  },
+
+  {
+    "id": "4",
+    "name": "T-shirt",
+    "price": "250 kr",
+    "image": "img/card_large (3).jpg"
+  },
+
+  {
+    "id": "5",
+    "name": "T-shirt",
+    "price": "150 kr",
+    "image": "img/shark.jpg"
+  },
+
+  {
+    "id": "6",
+    "name": "Jeans",
+    "price": "300 kr",
+    "image": "img/card_large (5).jpg"
+  },
+
+  {
+    "id": "7",
+    "name": "Overall",
+    "price": "600 kr",
+    "image": "img/overrall blue.jpg"
+  },
+
+  {
+    "id": "8",
+    "name": "Overall",
+    "price": "600 kr",
+    "image": "img/overall.jpg"
+  },
+
+  {
+    "id": "9",
+    "name": "Overall",
+    "price": "400 kr",
+    "image": "img/bear.jpg"
+  },
+
+  {
+    "id": "10",
+    "name": "Shoes",
+    "price": "350 kr",
+    "image": "img/card_large (2).jpg"
+  }
+  ,
+
+  {
+    "id": "11",
+    "name": "Shoes",
+    "price": "350 kr",
+    "image": "img/card_large.jpg"
+  }
+  ,
+
+  {
+    "id": "12",
+    "name": "Shoes",
+    "price": "350 kr",
+    "image": "img/card_large (1).jpg"
+  }
+]
