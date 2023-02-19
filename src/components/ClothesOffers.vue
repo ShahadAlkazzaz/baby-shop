@@ -27,7 +27,6 @@ export default {
     value:""
 
   },
-//   props:["value"]
 
 };
 </script>

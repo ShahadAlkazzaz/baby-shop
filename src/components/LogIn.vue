@@ -1,5 +1,5 @@
 <template>
-  <section id="color-background" class="vh-100" >
+  <section id="color-background" class="vh-100">
     <div class="container py-5 h-100">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col col-xl-10">
@@ -8,12 +8,13 @@
               <div class="col-md-6 col-lg-7 d-flex align-items-center">
                 <div class="card-body p-4 p-lg-5 text-black">
                   <form>
-                    <div class="d-flex align-items-center mb-3 pb-1">
+                    <div  class="d-flex align-items-center mb-3 pb-1">
                       <i
-                        class="fas fa-cubes fa-2x me-3"
+                      id="icon-orange"
+                      class="fa fa-fw fa-user"
                         style="color: #ff6219"
                       ></i>
-                      <span class="h1 fw-bold mb-0">Logo</span>
+                      <span class="h1 fw-bold mb-0">Login</span>
                     </div>
 
                     <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px">
@@ -33,13 +34,12 @@
 
                     <div class="form-outline mb-4">
                       <input
-                        type="password"
+                        :type="fieldType"
                         id="form2Example27"
                         class="form-control form-control-lg"
                       />
-                      <label class="form-label" for="form2Example27"
-                        >Password</label
-                      >
+                      <input type="checkbox" @click.prevent="switchField" />Show
+                      Password
                     </div>
 
                     <div class="pt-1 mb-4">
@@ -69,8 +69,24 @@
   </section>
 </template>
 
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      fieldType: "password",
+    };
+  },
+
+  methods: {
+    switchField() {
+      this.fieldType = this.fieldType === "password" ? "text" : "password";
+    },
+  },
+};
+</script>
 
 <style scoped>
-
+#icon-orange{
+    font-size: xx-large;
+}
 </style>
